@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.bg {
+    background-image: url("/images/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    margin-top: 20%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer{
+    background-color: white!important;
+}

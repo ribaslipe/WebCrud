@@ -1,0 +1,12 @@
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\bin\Debug\net6.0\Util.deps.json
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\bin\Debug\net6.0\Util.dll
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\bin\Debug\net6.0\Util.pdb
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.csproj.AssemblyReference.cache
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.AssemblyInfoInputs.cache
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.AssemblyInfo.cs
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.csproj.CoreCompileInputs.cache
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.dll
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\refint\Util.dll
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\Util.pdb
+C:\Users\surf_\Desktop\Web Crud\WebCrud\Util\obj\Debug\net6.0\ref\Util.dll

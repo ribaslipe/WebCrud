@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+
+        <div class="card">
+            <div class="card-header">
+                Clientes
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-3">
+                        <button id="btnAddClient" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCliente" onclick="AbrirSalvarCliente();">
+                            Adicionar Cliente
+                        </button>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-12">
+
+                        <table id="tblClientes" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nome</th>
+                                    <th>Endereço</th>
+                                    <th>Cidade</th>
+                                    <th>UF</th>
+                                    <th>Data Inserção</th>
+                                    <th>Edição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalCliente" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form role="form" id="form-cliente" method="post">
+
+                <div class="modal-body">
+                    <div class="row hidesave">
+                        <div class="col-12">
+                            <label>Cod Cliente</label>
+                            <input class="form-control" disabled="disabled" id="codcliente" />
+                            <input type="hidden" name="codcliente" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Nome</label>
+                            <input class="form-control" maxlength="200" name="nome" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Endereço</label>
+                            <input class="form-control" maxlength="500" name="endereco" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Cidade</label>
+                            <input class="form-control" maxlength="200" name="cidade" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-12">
+                            <label>UF</label>
+                            <input class="form-control" maxlength="2" name="uf" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Data Inserção</label>
+                            <input class="form-control" disabled="disabled" id="datainsercao" />
+                            <input type="hidden" name="datainsercao" />
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            <div class="modal-footer">
+                <button id="btnClienteMods" type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/cliente.js" asp-append-version="true"></script>
