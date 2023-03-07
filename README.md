@@ -5,4 +5,4 @@ Projeto desenvolvido em .net 6
 
 Utilizando chamadas para API
 
-Alocação de token utilizada apenas para exmeplo da aplicação
+Alocação de token utilizada apenas para exemplo da aplicação
